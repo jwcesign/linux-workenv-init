@@ -38,3 +38,11 @@ config_zsh()
 	sed -i "s/robbyrussell/candy/g" ~/.zshrc
 	source ~/.zshrc
 }
+
+update_app_list
+install_git
+install_zsh
+install_curl
+install_vim
+install_oh_my_zsh
+config_zsh
